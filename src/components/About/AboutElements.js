@@ -17,6 +17,7 @@ export const Technologies = styled.div`
   margin-right: auto;
   margin-left: auto;
   margin-bottom: -2rem;
+  padding: 0px 10%;
 `;
 
 export const Tech = styled.div`

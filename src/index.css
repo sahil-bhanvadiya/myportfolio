@@ -128,8 +128,8 @@ video {
 }
 
 .tagline2 {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  font-weight: bold;
+  margin: 2rem auto;
 }
 
 .SectionTitle {

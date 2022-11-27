@@ -10,6 +10,11 @@ export const Email = styled.div`
   flex-direction: column;
   justify-content: space-around;
 
+  a:hover{
+    text-decoration : underline;
+    color: blue;
+  }
+
   span {
     font-size: 1rem;
     font-weight: 500;

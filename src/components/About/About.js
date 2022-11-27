@@ -1,6 +1,6 @@
 import React from "react";
 import pfp from './pfp.png'
-import { stackList } from "../../data/ProjectData";
+import { stackList, toolList } from "../../data/ProjectData";
 import {
   Image,
   Technologies,
@@ -20,17 +20,25 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Sahil Bhanvadiya</strong> and I enjoy
-            creating things that live on the internet. My interest in web
-            development started recently and I decided to try editing
-            custom Blogger themes — redesigning & modifying blogger themes
-            taught me a lot about HTML & CSS!
+            Hello! My name is <strong>Sahil Bhanvadiya</strong> and I am a front-end developer with experience working with React.js, Redux, JavaScript, TypeScript, Angular to deliver exceptional customer
+            experiences, Adept at contributing to a highly collaborative work environment, finding solutions, and determining customer satisfaction.
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
           </div>
           <Technologies>
             {stackList.map((stack, index) => (
+              <Tech key={index} className="tech">
+                <TechImg src={stack.img} alt={stack.name} />
+                <TechName>{stack.name}</TechName>
+              </Tech>
+            ))}
+          </Technologies>
+          <div className="AboutBio tagline2">
+            Tools that I have used throughout development.
+          </div>
+          <Technologies>
+            {toolList.map((stack, index) => (
               <Tech key={index} className="tech">
                 <TechImg src={stack.img} alt={stack.name} />
                 <TechName>{stack.name}</TechName>

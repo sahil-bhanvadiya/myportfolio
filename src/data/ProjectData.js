@@ -41,23 +41,77 @@ export const stackList = [
     name: "CSS",
   },
   {
+    img: "https://cdn.worldvectorlogo.com/logos/sass-1.svg",
+    name: "SCSS",
+  },
+  {
     img: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
     name: "JavaScript",
   },
   {
-    img: "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
-    name: "Bootstrap",
+    img: "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+    name: "TypeScript",
   },
   {
     img: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
     name: "React.js",
   },
   {
-    img: "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
-    name: "Git",
+    img: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+    name: "Redux",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
+    name: "Angular",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
+    name: "Bootstrap",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
+    name: "Material UI",
   },
   {
     img: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
     name: "Node.js",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/json.svg",
+    name: "JSON",
+  },
+];
+export const toolList = [
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg",
+    name: "VS code",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+    name: "Git",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
+    name: "GitHub",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/gitlab.svg",
+    name: "GitLab",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/postman.svg",
+    name: "Postman",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/chrome.svg",
+    name: "Chrome",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/bitbucket-icon.svg",
+    name: "Bitbucket",
+  },
+  {
+    img: "https://cdn.worldvectorlogo.com/logos/jira-3.svg",
+    name: "Jira",
   },
 ];
